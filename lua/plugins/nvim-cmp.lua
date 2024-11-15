@@ -32,10 +32,6 @@ return {
           ['<CR>'] = cmp.mapping.confirm({select = false}),
           -- ['<Tab>'] = cmp.mapping.select_next_item({select = false}),
           -- ['<S-Tab>'] = cmp.mapping.select_prev_item({select = false}),
-
-
-
-
           -- Super tab
          ['<Tab>'] = cmp.mapping(function(fallback)
            local luasnip = require('luasnip')
