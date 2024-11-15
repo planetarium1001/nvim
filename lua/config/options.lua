@@ -22,3 +22,16 @@ vim.opt.showcmd = true
 vim.opt.et = true
 vim.opt.clipboard = "unnamed"
 vim.opt.shortmess = atI
+vim.wo.cursorline = true
+vim.wo.signcolumn = "yes"
+vim.o.expandtab = true
+vim.bo.expandtab = true
+vim.o.autoindent = true
+vim.bo.autoindent = true
+vim.o.smartindent = true
+vim.o.ignorecase = true
+vim.o.smartcase = true
+vim.o.incsearch = true
+vim.o.autoread = true
+vim.bo.autoread = true
+vim.opt.listchars = { trail = "·", precedes = "←", extends = "→" }
