@@ -35,3 +35,4 @@ vim.o.incsearch = true
 vim.o.autoread = true
 vim.bo.autoread = true
 vim.opt.listchars = { trail = "·", precedes = "←", extends = "→" }
+-- vim.scriptencoding = "utf-8"

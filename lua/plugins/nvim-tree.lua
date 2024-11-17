@@ -20,6 +20,8 @@ return {
       -- custom mappings
       -- vim.keymap.set('n', '<C-S-t>', api.tree.change_root_to_parent,        opts('Up'))
       vim.keymap.set('n', '?',api.tree.toggle_help, opts('Help'))
+      vim.keymap.set('n', '<CR>', api.node.open.edit, opts('Open'))
+      vim.keymap.set("n", "<BS>", api.node.navigate.parent_close, opts("Close Directory"))
     end
     -- disable netrw at the very start of your init.lua
     vim.g.loaded_netrw = 1

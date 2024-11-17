@@ -1,10 +1,7 @@
+-- Common Keymaps
 vim.keymap.set("", "H", "10h")
 vim.keymap.set("", "J", "10j")
 vim.keymap.set("", "K", "10k")
 vim.keymap.set("", "L", "10l")
-vim.keymap.set("", "<C-h>", "<C-w-h>")
-vim.keymap.set("", "<C-j>", "<C-w-j>")
-vim.keymap.set("", "<C-k>", "<C-w-k>")
-vim.keymap.set("", "<C-l>", "<C-w-l>")
 
-vim.keymap.set("", "<C-t>", ":NvimTreeToggle<CR>")
+vim.keymap.set("", "<C-t>", ":silent NvimTreeToggle<CR>")
